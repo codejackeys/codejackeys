@@ -1,467 +1,234 @@
-export const themes = {
-  default: {
-    title_color: "2f80ed",
-    icon_color: "4c71f2",
-    text_color: "434d58",
-    bg_color: "fffefe",
-    border_color: "e4e2e2",
-  },
-  default_repocard: {
-    title_color: "2f80ed",
-    icon_color: "586069", // icon color is different
-    text_color: "434d58",
-    bg_color: "fffefe",
-  },
-  transparent: {
-    title_color: "006AFF",
-    icon_color: "0579C3",
-    text_color: "417E87",
-    bg_color: "ffffff00",
-  },
-  shadow_red: {
-    title_color: "9A0000",
-    text_color: "444",
-    icon_color: "4F0000",
-    border_color: "4F0000",
-    bg_color: "ffffff00",
-  },
-  shadow_green: {
-    title_color: "007A00",
-    text_color: "444",
-    icon_color: "003D00",
-    border_color: "003D00",
-    bg_color: "ffffff00",
-  },
-  shadow_blue: {
-    title_color: "00779A",
-    text_color: "444",
-    icon_color: "004450",
-    border_color: "004490",
-    bg_color: "ffffff00",
-  },
-  dark: {
-    title_color: "fff",
-    icon_color: "79ff97",
-    text_color: "9f9f9f",
-    bg_color: "151515",
-  },
-  radical: {
-    title_color: "fe428e",
-    icon_color: "f8d847",
-    text_color: "a9fef7",
-    bg_color: "141321",
-  },
-  merko: {
-    title_color: "abd200",
-    icon_color: "b7d364",
-    text_color: "68b587",
-    bg_color: "0a0f0b",
-  },
-  gruvbox: {
-    title_color: "fabd2f",
-    icon_color: "fe8019",
-    text_color: "8ec07c",
-    bg_color: "282828",
-  },
-  gruvbox_light: {
-    title_color: "b57614",
-    icon_color: "af3a03",
-    text_color: "427b58",
-    bg_color: "fbf1c7",
-  },
-  tokyonight: {
-    title_color: "70a5fd",
-    icon_color: "bf91f3",
-    text_color: "38bdae",
-    bg_color: "1a1b27",
-  },
-  onedark: {
-    title_color: "e4bf7a",
-    icon_color: "8eb573",
-    text_color: "df6d74",
-    bg_color: "282c34",
-  },
-  cobalt: {
-    title_color: "e683d9",
-    icon_color: "0480ef",
-    text_color: "75eeb2",
-    bg_color: "193549",
-  },
-  synthwave: {
-    title_color: "e2e9ec",
-    icon_color: "ef8539",
-    text_color: "e5289e",
-    bg_color: "2b213a",
-  },
-  highcontrast: {
-    title_color: "e7f216",
-    icon_color: "00ffff",
-    text_color: "fff",
-    bg_color: "000",
-  },
-  dracula: {
-    title_color: "ff6e96",
-    icon_color: "79dafa",
-    text_color: "f8f8f2",
-    bg_color: "282a36",
-  },
-  prussian: {
-    title_color: "bddfff",
-    icon_color: "38a0ff",
-    text_color: "6e93b5",
-    bg_color: "172f45",
-  },
-  monokai: {
-    title_color: "eb1f6a",
-    icon_color: "e28905",
-    text_color: "f1f1eb",
-    bg_color: "272822",
-  },
-  vue: {
-    title_color: "41b883",
-    icon_color: "41b883",
-    text_color: "273849",
-    bg_color: "fffefe",
-  },
-  "vue-dark": {
-    title_color: "41b883",
-    icon_color: "41b883",
-    text_color: "fffefe",
-    bg_color: "273849",
-  },
-  "shades-of-purple": {
-    title_color: "fad000",
-    icon_color: "b362ff",
-    text_color: "a599e9",
-    bg_color: "2d2b55",
-  },
-  nightowl: {
-    title_color: "c792ea",
-    icon_color: "ffeb95",
-    text_color: "7fdbca",
-    bg_color: "011627",
-  },
-  buefy: {
-    title_color: "7957d5",
-    icon_color: "ff3860",
-    text_color: "363636",
-    bg_color: "ffffff",
-  },
-  "blue-green": {
-    title_color: "2f97c1",
-    icon_color: "f5b700",
-    text_color: "0cf574",
-    bg_color: "040f0f",
-  },
-  algolia: {
-    title_color: "00AEFF",
-    icon_color: "2DDE98",
-    text_color: "FFFFFF",
-    bg_color: "050F2C",
-  },
-  "great-gatsby": {
-    title_color: "ffa726",
-    icon_color: "ffb74d",
-    text_color: "ffd95b",
-    bg_color: "000000",
-  },
-  darcula: {
-    title_color: "BA5F17",
-    icon_color: "84628F",
-    text_color: "BEBEBE",
-    bg_color: "242424",
-  },
-  bear: {
-    title_color: "e03c8a",
-    icon_color: "00AEFF",
-    text_color: "bcb28d",
-    bg_color: "1f2023",
-  },
-  "solarized-dark": {
-    title_color: "268bd2",
-    icon_color: "b58900",
-    text_color: "859900",
-    bg_color: "002b36",
-  },
-  "solarized-light": {
-    title_color: "268bd2",
-    icon_color: "b58900",
-    text_color: "859900",
-    bg_color: "fdf6e3",
-  },
-  "chartreuse-dark": {
-    title_color: "7fff00",
-    icon_color: "00AEFF",
-    text_color: "fff",
-    bg_color: "000",
-  },
-  nord: {
-    title_color: "81a1c1",
-    text_color: "d8dee9",
-    icon_color: "88c0d0",
-    bg_color: "2e3440",
-  },
-  gotham: {
-    title_color: "2aa889",
-    icon_color: "599cab",
-    text_color: "99d1ce",
-    bg_color: "0c1014",
-  },
-  "material-palenight": {
-    title_color: "c792ea",
-    icon_color: "89ddff",
-    text_color: "a6accd",
-    bg_color: "292d3e",
-  },
-  graywhite: {
-    title_color: "24292e",
-    icon_color: "24292e",
-    text_color: "24292e",
-    bg_color: "ffffff",
-  },
-  "vision-friendly-dark": {
-    title_color: "ffb000",
-    icon_color: "785ef0",
-    text_color: "ffffff",
-    bg_color: "000000",
-  },
-  "ayu-mirage": {
-    title_color: "f4cd7c",
-    icon_color: "73d0ff",
-    text_color: "c7c8c2",
-    bg_color: "1f2430",
-  },
-  "midnight-purple": {
-    title_color: "9745f5",
-    icon_color: "9f4bff",
-    text_color: "ffffff",
-    bg_color: "000000",
-  },
-  calm: {
-    title_color: "e07a5f",
-    icon_color: "edae49",
-    text_color: "ebcfb2",
-    bg_color: "373f51",
-  },
-  "flag-india": {
-    title_color: "ff8f1c",
-    icon_color: "250E62",
-    text_color: "509E2F",
-    bg_color: "ffffff",
-  },
-  omni: {
-    title_color: "FF79C6",
-    icon_color: "e7de79",
-    text_color: "E1E1E6",
-    bg_color: "191622",
-  },
-  react: {
-    title_color: "61dafb",
-    icon_color: "61dafb",
-    text_color: "ffffff",
-    bg_color: "20232a",
-  },
-  jolly: {
-    title_color: "ff64da",
-    icon_color: "a960ff",
-    text_color: "ffffff",
-    bg_color: "291B3E",
-  },
-  maroongold: {
-    title_color: "F7EF8A",
-    icon_color: "F7EF8A",
-    text_color: "E0AA3E",
-    bg_color: "260000",
-  },
-  yeblu: {
-    title_color: "ffff00",
-    icon_color: "ffff00",
-    text_color: "ffffff",
-    bg_color: "002046",
-  },
-  blueberry: {
-    title_color: "82aaff",
-    icon_color: "89ddff",
-    text_color: "27e8a7",
-    bg_color: "242938",
-  },
-  slateorange: {
-    title_color: "faa627",
-    icon_color: "faa627",
-    text_color: "ffffff",
-    bg_color: "36393f",
-  },
-  kacho_ga: {
-    title_color: "bf4a3f",
-    icon_color: "a64833",
-    text_color: "d9c8a9",
-    bg_color: "402b23",
-  },
-  outrun: {
-    title_color: "ffcc00",
-    icon_color: "ff1aff",
-    text_color: "8080ff",
-    bg_color: "141439",
-  },
-  ocean_dark: {
-    title_color: "8957B2",
-    icon_color: "FFFFFF",
-    text_color: "92D534",
-    bg_color: "151A28",
-  },
-  city_lights: {
-    title_color: "5D8CB3",
-    icon_color: "4798FF",
-    text_color: "718CA1",
-    bg_color: "1D252C",
-  },
-  github_dark: {
-    title_color: "58A6FF",
-    icon_color: "1F6FEB",
-    text_color: "C3D1D9",
-    bg_color: "0D1117",
-  },
-  github_dark_dimmed: {
-    title_color: "539bf5",
-    icon_color: "539bf5",
-    text_color: "ADBAC7",
-    bg_color: "24292F",
-    border_color: "373E47",
-  },
-  discord_old_blurple: {
-    title_color: "7289DA",
-    icon_color: "7289DA",
-    text_color: "FFFFFF",
-    bg_color: "2C2F33",
-  },
-  aura_dark: {
-    title_color: "ff7372",
-    icon_color: "6cffd0",
-    text_color: "dbdbdb",
-    bg_color: "252334",
-  },
-  panda: {
-    title_color: "19f9d899",
-    icon_color: "19f9d899",
-    text_color: "FF75B5",
-    bg_color: "31353a",
-  },
-  noctis_minimus: {
-    title_color: "d3b692",
-    icon_color: "72b7c0",
-    text_color: "c5cdd3",
-    bg_color: "1b2932",
-  },
-  cobalt2: {
-    title_color: "ffc600",
-    icon_color: "ffffff",
-    text_color: "0088ff",
-    bg_color: "193549",
-  },
-  swift: {
-    title_color: "000000",
-    icon_color: "f05237",
-    text_color: "000000",
-    bg_color: "f7f7f7",
-  },
-  aura: {
-    title_color: "a277ff",
-    icon_color: "ffca85",
-    text_color: "61ffca",
-    bg_color: "15141b",
-  },
-  apprentice: {
-    title_color: "ffffff",
-    icon_color: "ffffaf",
-    text_color: "bcbcbc",
-    bg_color: "262626",
-  },
-  moltack: {
-    title_color: "86092C",
-    icon_color: "86092C",
-    text_color: "574038",
-    bg_color: "F5E1C0",
-  },
-  codeSTACKr: {
-    title_color: "ff652f",
-    icon_color: "FFE400",
-    text_color: "ffffff",
-    bg_color: "09131B",
-    border_color: "0c1a25",
-  },
-  rose_pine: {
-    title_color: "9ccfd8",
-    icon_color: "ebbcba",
-    text_color: "e0def4",
-    bg_color: "191724",
-  },
-  catppuccin_latte: {
-    title_color: "137980",
-    icon_color: "8839ef",
-    text_color: "4c4f69",
-    bg_color: "eff1f5",
-  },
-  catppuccin_mocha: {
-    title_color: "94e2d5",
-    icon_color: "cba6f7",
-    text_color: "cdd6f4",
-    bg_color: "1e1e2e",
-  },
-  date_night: {
-    title_color: "DA7885",
-    text_color: "E1B2A2",
-    icon_color: "BB8470",
-    border_color: "170F0C",
-    bg_color: "170F0C",
-  },
-  one_dark_pro: {
-    title_color: "61AFEF",
-    text_color: "E5C06E",
-    icon_color: "C678DD",
-    border_color: "3B4048",
-    bg_color: "23272E",
-  },
-  rose: {
-    title_color: "8d192b",
-    text_color: "862931",
-    icon_color: "B71F36",
-    border_color: "e9d8d4",
-    bg_color: "e9d8d4",
-  },
-  holi: {
-    title_color: "5FABEE",
-    text_color: "D6E7FF",
-    icon_color: "5FABEE",
-    border_color: "85A4C0",
-    bg_color: "030314",
-  },
-  neon: {
-    title_color: "00EAD3",
-    text_color: "FF449F",
-    icon_color: "00EAD3",
-    border_color: "ffffff",
-    bg_color: "000000",
-  },
-  blue_navy: {
-    title_color: "82AAFF",
-    text_color: "82AAFF",
-    icon_color: "82AAFF",
-    border_color: "ffffff",
-    bg_color: "000000",
-  },
-  calm_pink: {
-    title_color: "e07a5f",
-    text_color: "edae49",
-    icon_color: "ebcfb2",
-    border_color: "e1bc29",
-    bg_color: "2b2d40",
-  },
-  ambient_gradient: {
-    title_color: "ffffff",
-    text_color: "ffffff",
-    icon_color: "ffffff",
-    bg_color: "35,4158d0,c850c0,ffcc70",
-  },
-};
+## Available Themes
 
-export default themes;
+<!-- DO NOT EDIT THIS FILE DIRECTLY -->
+
+With inbuilt themes, you can customize the look of the card without doing any manual customization.
+
+Use `?theme=THEME_NAME` parameter like so:
+
+```md
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true)
+```
+
+## Stats
+
+> These themes works with all five our cards: Stats Card, Repo Card, Gist Card, Top languages Card and WakaTime Card.
+
+| | | |
+| :--: | :--: | :--: |
+| `default` ![default][default] | `transparent` ![transparent][transparent] | `shadow_red` ![shadow_red][shadow_red] |
+| `shadow_green` ![shadow_green][shadow_green] | `shadow_blue` ![shadow_blue][shadow_blue] | `dark` ![dark][dark] |
+| `radical` ![radical][radical] | `merko` ![merko][merko] | `gruvbox` ![gruvbox][gruvbox] |
+| `gruvbox_light` ![gruvbox_light][gruvbox_light] | `tokyonight` ![tokyonight][tokyonight] | `onedark` ![onedark][onedark] |
+| `cobalt` ![cobalt][cobalt] | `synthwave` ![synthwave][synthwave] | `highcontrast` ![highcontrast][highcontrast] |
+| `dracula` ![dracula][dracula] | `prussian` ![prussian][prussian] | `monokai` ![monokai][monokai] |
+| `vue` ![vue][vue] | `vue-dark` ![vue-dark][vue-dark] | `shades-of-purple` ![shades-of-purple][shades-of-purple] |
+| `nightowl` ![nightowl][nightowl] | `buefy` ![buefy][buefy] | `blue-green` ![blue-green][blue-green] |
+| `algolia` ![algolia][algolia] | `great-gatsby` ![great-gatsby][great-gatsby] | `darcula` ![darcula][darcula] |
+| `bear` ![bear][bear] | `solarized-dark` ![solarized-dark][solarized-dark] | `solarized-light` ![solarized-light][solarized-light] |
+| `chartreuse-dark` ![chartreuse-dark][chartreuse-dark] | `nord` ![nord][nord] | `gotham` ![gotham][gotham] |
+| `material-palenight` ![material-palenight][material-palenight] | `graywhite` ![graywhite][graywhite] | `vision-friendly-dark` ![vision-friendly-dark][vision-friendly-dark] |
+| `ayu-mirage` ![ayu-mirage][ayu-mirage] | `midnight-purple` ![midnight-purple][midnight-purple] | `calm` ![calm][calm] |
+| `flag-india` ![flag-india][flag-india] | `omni` ![omni][omni] | `react` ![react][react] |
+| `jolly` ![jolly][jolly] | `maroongold` ![maroongold][maroongold] | `yeblu` ![yeblu][yeblu] |
+| `blueberry` ![blueberry][blueberry] | `slateorange` ![slateorange][slateorange] | `kacho_ga` ![kacho_ga][kacho_ga] |
+| `outrun` ![outrun][outrun] | `ocean_dark` ![ocean_dark][ocean_dark] | `city_lights` ![city_lights][city_lights] |
+| `github_dark` ![github_dark][github_dark] | `github_dark_dimmed` ![github_dark_dimmed][github_dark_dimmed] | `discord_old_blurple` ![discord_old_blurple][discord_old_blurple] |
+| `aura_dark` ![aura_dark][aura_dark] | `panda` ![panda][panda] | `noctis_minimus` ![noctis_minimus][noctis_minimus] |
+| `cobalt2` ![cobalt2][cobalt2] | `swift` ![swift][swift] | `aura` ![aura][aura] |
+| `apprentice` ![apprentice][apprentice] | `moltack` ![moltack][moltack] | `codeSTACKr` ![codeSTACKr][codeSTACKr] |
+| `rose_pine` ![rose_pine][rose_pine] | `catppuccin_latte` ![catppuccin_latte][catppuccin_latte] | `catppuccin_mocha` ![catppuccin_mocha][catppuccin_mocha] |
+| `date_night` ![date_night][date_night] | `one_dark_pro` ![one_dark_pro][one_dark_pro] | `rose` ![rose][rose] |
+| `holi` ![holi][holi] | `neon` ![neon][neon] | `blue_navy` ![blue_navy][blue_navy] |
+| `calm_pink` ![calm_pink][calm_pink] | `ambient_gradient` ![ambient_gradient][ambient_gradient] | [Add your theme][add-theme] |
+
+## Repo Card
+
+> These themes works with all five our cards: Stats Card, Repo Card, Gist Card, Top languages Card and WakaTime Card.
+
+| | | |
+| :--: | :--: | :--: |
+| `default_repocard` ![default_repocard][default_repocard_repo] | `transparent` ![transparent][transparent_repo] | `shadow_red` ![shadow_red][shadow_red_repo] |
+| `shadow_green` ![shadow_green][shadow_green_repo] | `shadow_blue` ![shadow_blue][shadow_blue_repo] | `dark` ![dark][dark_repo] |
+| `radical` ![radical][radical_repo] | `merko` ![merko][merko_repo] | `gruvbox` ![gruvbox][gruvbox_repo] |
+| `gruvbox_light` ![gruvbox_light][gruvbox_light_repo] | `tokyonight` ![tokyonight][tokyonight_repo] | `onedark` ![onedark][onedark_repo] |
+| `cobalt` ![cobalt][cobalt_repo] | `synthwave` ![synthwave][synthwave_repo] | `highcontrast` ![highcontrast][highcontrast_repo] |
+| `dracula` ![dracula][dracula_repo] | `prussian` ![prussian][prussian_repo] | `monokai` ![monokai][monokai_repo] |
+| `vue` ![vue][vue_repo] | `vue-dark` ![vue-dark][vue-dark_repo] | `shades-of-purple` ![shades-of-purple][shades-of-purple_repo] |
+| `nightowl` ![nightowl][nightowl_repo] | `buefy` ![buefy][buefy_repo] | `blue-green` ![blue-green][blue-green_repo] |
+| `algolia` ![algolia][algolia_repo] | `great-gatsby` ![great-gatsby][great-gatsby_repo] | `darcula` ![darcula][darcula_repo] |
+| `bear` ![bear][bear_repo] | `solarized-dark` ![solarized-dark][solarized-dark_repo] | `solarized-light` ![solarized-light][solarized-light_repo] |
+| `chartreuse-dark` ![chartreuse-dark][chartreuse-dark_repo] | `nord` ![nord][nord_repo] | `gotham` ![gotham][gotham_repo] |
+| `material-palenight` ![material-palenight][material-palenight_repo] | `graywhite` ![graywhite][graywhite_repo] | `vision-friendly-dark` ![vision-friendly-dark][vision-friendly-dark_repo] |
+| `ayu-mirage` ![ayu-mirage][ayu-mirage_repo] | `midnight-purple` ![midnight-purple][midnight-purple_repo] | `calm` ![calm][calm_repo] |
+| `flag-india` ![flag-india][flag-india_repo] | `omni` ![omni][omni_repo] | `react` ![react][react_repo] |
+| `jolly` ![jolly][jolly_repo] | `maroongold` ![maroongold][maroongold_repo] | `yeblu` ![yeblu][yeblu_repo] |
+| `blueberry` ![blueberry][blueberry_repo] | `slateorange` ![slateorange][slateorange_repo] | `kacho_ga` ![kacho_ga][kacho_ga_repo] |
+| `outrun` ![outrun][outrun_repo] | `ocean_dark` ![ocean_dark][ocean_dark_repo] | `city_lights` ![city_lights][city_lights_repo] |
+| `github_dark` ![github_dark][github_dark_repo] | `github_dark_dimmed` ![github_dark_dimmed][github_dark_dimmed_repo] | `discord_old_blurple` ![discord_old_blurple][discord_old_blurple_repo] |
+| `aura_dark` ![aura_dark][aura_dark_repo] | `panda` ![panda][panda_repo] | `noctis_minimus` ![noctis_minimus][noctis_minimus_repo] |
+| `cobalt2` ![cobalt2][cobalt2_repo] | `swift` ![swift][swift_repo] | `aura` ![aura][aura_repo] |
+| `apprentice` ![apprentice][apprentice_repo] | `moltack` ![moltack][moltack_repo] | `codeSTACKr` ![codeSTACKr][codeSTACKr_repo] |
+| `rose_pine` ![rose_pine][rose_pine_repo] | `catppuccin_latte` ![catppuccin_latte][catppuccin_latte_repo] | `catppuccin_mocha` ![catppuccin_mocha][catppuccin_mocha_repo] |
+| `date_night` ![date_night][date_night_repo] | `one_dark_pro` ![one_dark_pro][one_dark_pro_repo] | `rose` ![rose][rose_repo] |
+| `holi` ![holi][holi_repo] | `neon` ![neon][neon_repo] | `blue_navy` ![blue_navy][blue_navy_repo] |
+| `calm_pink` ![calm_pink][calm_pink_repo] | `ambient_gradient` ![ambient_gradient][ambient_gradient_repo] | [Add your theme][add-theme] |
+
+
+[default]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=default
+[default_repocard]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=default_repocard
+[transparent]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=transparent
+[shadow_red]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=shadow_red
+[shadow_green]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=shadow_green
+[shadow_blue]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=shadow_blue
+[dark]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=dark
+[radical]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=radical
+[merko]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=merko
+[gruvbox]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=gruvbox
+[gruvbox_light]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=gruvbox_light
+[tokyonight]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=tokyonight
+[onedark]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=onedark
+[cobalt]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=cobalt
+[synthwave]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=synthwave
+[highcontrast]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=highcontrast
+[dracula]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=dracula
+[prussian]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=prussian
+[monokai]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=monokai
+[vue]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=vue
+[vue-dark]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=vue-dark
+[shades-of-purple]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=shades-of-purple
+[nightowl]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=nightowl
+[buefy]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=buefy
+[blue-green]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=blue-green
+[algolia]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=algolia
+[great-gatsby]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=great-gatsby
+[darcula]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=darcula
+[bear]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=bear
+[solarized-dark]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=solarized-dark
+[solarized-light]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=solarized-light
+[chartreuse-dark]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=chartreuse-dark
+[nord]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=nord
+[gotham]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=gotham
+[material-palenight]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=material-palenight
+[graywhite]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=graywhite
+[vision-friendly-dark]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=vision-friendly-dark
+[ayu-mirage]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=ayu-mirage
+[midnight-purple]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=midnight-purple
+[calm]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=calm
+[flag-india]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=flag-india
+[omni]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=omni
+[react]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=react
+[jolly]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=jolly
+[maroongold]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=maroongold
+[yeblu]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=yeblu
+[blueberry]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=blueberry
+[slateorange]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=slateorange
+[kacho_ga]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=kacho_ga
+[outrun]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=outrun
+[ocean_dark]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=ocean_dark
+[city_lights]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=city_lights
+[github_dark]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=github_dark
+[github_dark_dimmed]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=github_dark_dimmed
+[discord_old_blurple]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=discord_old_blurple
+[aura_dark]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=aura_dark
+[panda]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=panda
+[noctis_minimus]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=noctis_minimus
+[cobalt2]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=cobalt2
+[swift]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=swift
+[aura]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=aura
+[apprentice]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=apprentice
+[moltack]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=moltack
+[codeSTACKr]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=codeSTACKr
+[rose_pine]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=rose_pine
+[catppuccin_latte]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=catppuccin_latte
+[catppuccin_mocha]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=catppuccin_mocha
+[date_night]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=date_night
+[one_dark_pro]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=one_dark_pro
+[rose]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=rose
+[holi]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=holi
+[neon]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=neon
+[blue_navy]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=blue_navy
+[calm_pink]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=calm_pink
+[ambient_gradient]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=ambient_gradient
+
+
+[default_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=default
+[default_repocard_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=default_repocard
+[transparent_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=transparent
+[shadow_red_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=shadow_red
+[shadow_green_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=shadow_green
+[shadow_blue_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=shadow_blue
+[dark_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=dark
+[radical_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=radical
+[merko_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=merko
+[gruvbox_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=gruvbox
+[gruvbox_light_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=gruvbox_light
+[tokyonight_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=tokyonight
+[onedark_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=onedark
+[cobalt_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=cobalt
+[synthwave_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=synthwave
+[highcontrast_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=highcontrast
+[dracula_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=dracula
+[prussian_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=prussian
+[monokai_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=monokai
+[vue_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=vue
+[vue-dark_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=vue-dark
+[shades-of-purple_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=shades-of-purple
+[nightowl_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=nightowl
+[buefy_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=buefy
+[blue-green_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=blue-green
+[algolia_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=algolia
+[great-gatsby_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=great-gatsby
+[darcula_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=darcula
+[bear_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=bear
+[solarized-dark_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=solarized-dark
+[solarized-light_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=solarized-light
+[chartreuse-dark_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=chartreuse-dark
+[nord_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=nord
+[gotham_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=gotham
+[material-palenight_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=material-palenight
+[graywhite_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=graywhite
+[vision-friendly-dark_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=vision-friendly-dark
+[ayu-mirage_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=ayu-mirage
+[midnight-purple_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=midnight-purple
+[calm_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=calm
+[flag-india_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=flag-india
+[omni_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=omni
+[react_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=react
+[jolly_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=jolly
+[maroongold_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=maroongold
+[yeblu_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=yeblu
+[blueberry_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=blueberry
+[slateorange_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=slateorange
+[kacho_ga_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=kacho_ga
+[outrun_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=outrun
+[ocean_dark_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=ocean_dark
+[city_lights_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=city_lights
+[github_dark_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=github_dark
+[github_dark_dimmed_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=github_dark_dimmed
+[discord_old_blurple_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=discord_old_blurple
+[aura_dark_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=aura_dark
+[panda_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=panda
+[noctis_minimus_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=noctis_minimus
+[cobalt2_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=cobalt2
+[swift_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=swift
+[aura_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=aura
+[apprentice_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=apprentice
+[moltack_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=moltack
+[codeSTACKr_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=codeSTACKr
+[rose_pine_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=rose_pine
+[catppuccin_latte_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=catppuccin_latte
+[catppuccin_mocha_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=catppuccin_mocha
+[date_night_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=date_night
+[one_dark_pro_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=one_dark_pro
+[rose_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=rose
+[holi_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=holi
+[neon_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=neon
+[blue_navy_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=blue_navy
+[calm_pink_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=calm_pink
+[ambient_gradient_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=ambient_gradient
+
+
+[add-theme]: https://github.com/anuraghazra/github-readme-stats/edit/master/themes/index.js
+
+Want to add a new theme? Consider reading the [contribution guidelines](../CONTRIBUTING.md#themes-contribution) :D
